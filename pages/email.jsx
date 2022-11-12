@@ -12,7 +12,7 @@ const email = () => {
       </Head>
       <div className='w-full  bg-zinc-700 flex text-center justify-center h-screen'>
 <div className='h-96 md:h-64 rounded-xl rounded-r-none bg-zinc-800 w-[680] my-36  flex flex-col md:flex-row'>
-<Image src={Email} width='270' className='rounded-xl mr-4' />
+<Image src={Email} width='270' className='rounded-xl mr-4 object-cover transform hover:scale-110 duration-500' />
 <div className='my-4 w-full'>
   <h1 className='text-white text-xl  mt-6 mb-2' >Get diet and fitness tips in your inbox</h1>
   <p className='text-white text-sm mb-4'>Eat better and exercise better . Sign up for the <br/> Diet&Fitness newsLetter.</p>
@@ -26,5 +26,5 @@ const email = () => {
     </>
   )
 }
-
+ 
 export default email
