@@ -4,8 +4,8 @@ import Weight from '../public/image/weight.png'
 import Heart from '../public/image/heart.png'
 const product = () => {
   return (
-    <div className='flex justify-center items-center h-screen bg-gray-500'>
-      <div className='bg-white w-[500px] h-96 flex'>
+    <div className='flex justify-center items-center h-screen bg-gray-200'>
+      <div className='bg-white w-[500px] h-[440px] flex shadow-lg shadow-white'>
         <div className='w-64 h-full'>
           <Image src={Headphone} width='200' height='200' className='h-48 p-8 w-60' />
         </div>
@@ -15,8 +15,8 @@ const product = () => {
           <p className='font-bold line-through ' >$700</p>
           <p className='font-bold text-4xl'>$499</p>
           <p>The offer is valid untill April 3 or as long as stock lasts!</p>
-          <button>Add to Cart</button>
-          <h1><span className='text-green-500'> &#x2022; </span> 50+ pcs. in stock.</h1>
+          <button className='w-full bg-blue-500 text-white py-2 px-5 rounded-xl mt-2'>Add to Cart</button>
+          <h1><span className='text-green-500 text-4xl'> &#x2022; </span> 50+ pcs. in stock.</h1>
           <div className='flex w-full h-12 mt-4'>
             <div className='flex justify-between border w-32 p-4 h-full border-gray-400'>
               <Image src={Weight} className='h-4 w-4 ' />
