@@ -11,10 +11,26 @@ const image = () => {
     <div className='m-16 '>
         <div className='flex justify-end'>
             <ul className='flex'>
-                <li className='mr-4  cursor-pointer duration-500 hover:underline'>Vector</li>
-                <li className='mr-4 cursor-pointer hover:underline'>Illustrations</li>
-                <li className='mr-4 cursor-pointer hover:underline'>Images</li>
-                <li className='mr-4 cursor-pointer hover:underline'>Icons</li>
+                <div className="group">
+
+                <li className='mr-4  cursor-pointer duration-500 '>Vector</li>
+                <div className="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100"></div>
+                </div>
+                <div className="group">
+
+<li className='mr-4  cursor-pointer duration-500 '>Illustrations</li>
+<div className="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100"></div>
+</div>
+<div className="group">
+
+<li className='mr-4  cursor-pointer duration-500 '>Images</li>
+<div className="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100"></div>
+</div>
+<div className="group">
+
+<li className='mr-4  cursor-pointer duration-500 '>Icons</li>
+<div className="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100"></div>
+</div> 
             </ul>
             
         </div>
@@ -23,10 +39,10 @@ const image = () => {
         </div>
         <div className='flex justify-end mt-16 '>
             <div className="grid grid-cols-3">
+                <Image src={Image1} className='w-96 mr-4' />
                 <Image src={Image2} className='w-96 mr-4'/>
                 <Image src={Image3} className='w-96'/>
                 <Image src={Image4} className='w-96 mt-4'/>
-                <Image src={Image1} className='w-96 mr-4' />
                 <Image src={Image5} className='w-96 mt-4'/>
                 <Image src={Image6} className='w-96 mt-4'/>
             </div>
