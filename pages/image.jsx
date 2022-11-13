@@ -11,10 +11,10 @@ const image = () => {
     <div className='m-16 '>
         <div className='flex justify-end'>
             <ul className='flex'>
-                <li className='mr-4'>Vector</li>
-                <li className='mr-4'>Illustrations</li>
-                <li className='mr-4'>Images</li>
-                <li className='mr-4'>Icons</li>
+                <li className='mr-4  cursor-pointer duration-500 hover:underline'>Vector</li>
+                <li className='mr-4 cursor-pointer hover:underline'>Illustrations</li>
+                <li className='mr-4 cursor-pointer hover:underline'>Images</li>
+                <li className='mr-4 cursor-pointer hover:underline'>Icons</li>
             </ul>
             
         </div>
@@ -23,10 +23,10 @@ const image = () => {
         </div>
         <div className='flex justify-end mt-16 '>
             <div className="grid grid-cols-3">
-                <Image src={Image1} className='w-96 mr-4' />
                 <Image src={Image2} className='w-96 mr-4'/>
                 <Image src={Image3} className='w-96'/>
                 <Image src={Image4} className='w-96 mt-4'/>
+                <Image src={Image1} className='w-96 mr-4' />
                 <Image src={Image5} className='w-96 mt-4'/>
                 <Image src={Image6} className='w-96 mt-4'/>
             </div>
