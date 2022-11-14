@@ -76,12 +76,12 @@ const clipper = () => {
 </div>
 </div>
 
-<div className='flex'>
-<Image src={Google} />
-<Image src={IBM} />
-<Image src={Microsoft} />
-<Image src={HP} />
-<Image src={VG} />
+<div className='flex justify-evenly my-16 ml-10'>
+<Image src={Google} className='mr-8' />
+<Image src={IBM} className='mr-8'/>
+<Image src={Microsoft} className='mr-8'/>
+<Image src={HP} className='mr-8'/>
+<Image src={VG} className='mr-8'/>
     </div>
     <div>
         <h1>Clipboard for iOS and Mac OS</h1>
