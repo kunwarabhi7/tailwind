@@ -83,12 +83,12 @@ const clipper = () => {
 <Image src={HP} className='mr-8'/>
 <Image src={VG} className='mr-8'/>
     </div>
-    <div>
+    <div className='text-center'>
         <h1>Clipboard for iOS and Mac OS</h1>
         <p>Available for free n the App Store. Download for Mac pr iOS , sync with iCloud and you're ready to start adding to your clipboard.</p>
         <div className='flex justify-evenly'>
-    <button className='bg-green-500 text-white py-2 px-3'>Download for iOS</button>
-    <button className='bg-blue-800 text-white py-2 px-3'>Download for Mac</button>
+    <button className='bg-green-500 text-white py-2 px-3 rounded-full shadow-2xl'>Download for iOS</button>
+    <button className='bg-blue-800 text-white py-2 px-3 rounded-full shadow-2xl'>Download for Mac</button>
 </div>
     </div>
     {/* Footer  */}
