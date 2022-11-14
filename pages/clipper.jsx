@@ -6,6 +6,9 @@ import PC from '../public/image/Clipper/image-computer.png'
 import Devices from '../public/image/Clipper/image-devices.png'
 import BlackList from '../public/image/Clipper/icon-BlackList.svg'
 import Plain from '../public/image/Clipper/icon-text.svg'
+import Fb from '../public/image/Clipper/icon-facebook.svg'
+import Twitter from '../public/image/Clipper/icon-twitter.svg'
+import IG from '../public/image/Clipper/icon-instagram.svg'
 import Preview from '../public/image/Clipper/icon-preview.svg'
 import Google from '../public/image/Clipper/logo-google.png'
 import IBM from '../public/image/Clipper/logo-ibm.png'
@@ -78,6 +81,33 @@ const clipper = () => {
 <Image src={Microsoft} />
 <Image src={HP} />
 <Image src={VG} />
+    </div>
+    <div>
+        <h1>Clipboard for iOS and Mac OS</h1>
+        <p>Available for free n the App Store. Download for Mac pr iOS , sync with iCloud and you're ready to start adding to your clipboard.</p>
+        <div className='flex justify-evenly'>
+    <button className='bg-green-500 text-white py-2 px-3'>Download for iOS</button>
+    <button className='bg-blue-800 text-white py-2 px-3'>Download for Mac</button>
+</div>
+    </div>
+    {/* Footer  */}
+    <div className='bg-gray-200 flex justify-evenly'>
+        <div>
+            <Image src={Logo} />
+        </div>
+        <div className='grid grid-cols-3'>
+<h1>FAQs</h1>
+<h1>Privacy Policy</h1>
+<h1>Install Guide</h1>
+<h1>Contact Us</h1>
+<h1>Page Kit</h1>
+        </div>
+        <div className='flex'>
+            <Image src={Fb}/>
+            <Image src={Twitter}/>
+            <Image src={IG}/>
+        </div>
+
     </div>
     </div>
 
