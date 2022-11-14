@@ -27,7 +27,10 @@ const login = () => {
     </div>
 </div>
 <div className='w-[28rem] rounded-xl'>
-    <Image src={bgImage} />
+
+    <Image src={bgImage} className='hidden md:block ' />
+<p className='absolute  rounded-full top-5 right-5 bg-white py-2 px-4 cursor-pointer transform hover:translate-y-2 duration-300 '>X</p>
+   
 </div>
 </div>
     </div>
