@@ -40,6 +40,11 @@ const clipper = () => {
 <p>Whether you're on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks. </p>
 <Image src={Devices} />
 </div>
+<div className='text-center my-8'>
+<h1>Supercharge your Workflow</h1>
+<p>We've got the tools to boost your productivity.</p>
+</div>
+
     </div>
 
   )
