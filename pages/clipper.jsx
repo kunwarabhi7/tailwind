@@ -104,9 +104,9 @@ const clipper = () => {
 <h1>Contact Us</h1>
 <h1>Page Kit</h1>
         </div>
-        <div className='flex'>
-            <Image src={Fb}/>
-            <Image src={Twitter}/>
+        <div className='flex p-12'>
+            <Image src={Fb} className='mr-4'/>
+            <Image src={Twitter} className='mr-4'/>
             <Image src={IG}/>
         </div>
 
