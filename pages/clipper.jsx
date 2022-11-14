@@ -26,13 +26,13 @@ const clipper = () => {
 <div className='text-center'>
     <p className='text-5xl font-bold'>A history of everything you copy.</p>
     <p className='py-4 text-gray-400'>Clipboard allows you to track and organize everything you copy.<br/> Instantly access your clipboard on your devices.</p>
-<div className='flex justify-evenly'>
-    <button className='bg-green-500 text-white py-2 px-3'>Download for iOS</button>
-    <button className='bg-blue-800 text-white py-2 px-3'>Download for Mac</button>
+<div className='flex justify-evenly py-4'>
+    <button className='bg-green-500 text-white py-2 px-3 rounded-full shadow-2xl'>Download for iOS</button>
+    <button className='bg-blue-800 text-white py-2 px-3 rounded-full shadow-2xl '>Download for Mac</button>
 </div>
 </div>
-<div className='text-center'>
-<h1>Keeo track of your snippets</h1>
+<div className='text-center mt-16 '>
+<h1 className='text-4xl '>Keep track of your snippets</h1>
 <p>Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mav and iOS apps wil help you organize everything.</p>
 </div>
 <div className='flex  justify-between my-12'>
