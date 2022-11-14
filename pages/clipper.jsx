@@ -48,9 +48,9 @@ const clipper = () => {
     </div>
 </div>
 <div className='my-16 text-center'>
-<h1>Access Clipboard anywhere</h1>
-<p>Whether you're on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks. </p>
-<Image src={Devices} />
+<h1 className='text-4xl font-semibold my-6'>Access Clipboard anywhere</h1>
+<p className='text-gray-400 mb-16'>Whether you're on the go, or at your computer, you can access all your Clipboard <br/> snippets in a few simple clicks. </p>
+<Image src={Devices} className='ml-72' />
 </div>
 <div className='text-center my-8'>
 <h1>Supercharge your Workflow</h1>
