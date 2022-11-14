@@ -4,6 +4,15 @@ import HeaderMb from '../public/image/Clipper/bg-header-mobile.png'
 import Logo from '../public/image/Clipper/logo.svg'
 import PC from '../public/image/Clipper/image-computer.png'
 import Devices from '../public/image/Clipper/image-devices.png'
+import BlackList from '../public/image/Clipper/icon-BlackList.svg'
+import Plain from '../public/image/Clipper/icon-text.svg'
+import Preview from '../public/image/Clipper/icon-preview.svg'
+import Google from '../public/image/Clipper/logo-google.png'
+import IBM from '../public/image/Clipper/logo-ibm.png'
+import Microsoft from '../public/image/Clipper/logo-microsoft.png'
+import HP from '../public/image/Clipper/logo-hp.png'
+import VG from '../public/image/Clipper/logo-vector-graphics.png'
+
 
 const clipper = () => {
   return (
@@ -43,8 +52,33 @@ const clipper = () => {
 <div className='text-center my-8'>
 <h1>Supercharge your Workflow</h1>
 <p>We've got the tools to boost your productivity.</p>
+<div className='flex'>
+    <div>
+<Image src={BlackList} />
+<p>Create blacklists</p>
+<p>Easily search your snippets by content category , web address application and more.</p>
+    </div>
+    <div>
+        <Image src={Plain} />
+        <p>Plain text snippets</p>
+        <p>Remove unwanted formatting frmo copied text for a consostent look.</p>
+    </div>
+    <div>
+        <Image src={Preview} />
+        <p>Sneak preview</p>
+        <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+    </div>
+    
+</div>
 </div>
 
+<div className='flex'>
+<Image src={Google} />
+<Image src={IBM} />
+<Image src={Microsoft} />
+<Image src={HP} />
+<Image src={VG} />
+    </div>
     </div>
 
   )
