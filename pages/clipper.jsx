@@ -35,6 +35,11 @@ const clipper = () => {
         <p>Retrieve any snippets fron the first moment you started using the app</p>
     </div>
 </div>
+<div className='my-16 text-center'>
+<h1>Access Clipboard anywhere</h1>
+<p>Whether you're on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks. </p>
+<Image src={Devices} />
+</div>
     </div>
 
   )
