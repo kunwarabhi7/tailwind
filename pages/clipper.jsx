@@ -35,16 +35,16 @@ const clipper = () => {
 <h1 className='text-4xl '>Keep track of your snippets</h1>
 <p className='text-gray-400 my-4'>Clipboard instantly stores any item you copy in the cloud, meaning you can access <br/> your snippets immediately on all your devices. Our Mav and iOS apps wil help you <br/>organize everything.</p>
 </div>
-<div className='flex  justify-between my-12'>
+<div className='flex  justify-between my-16'>
     <Image  src={PC}/>
-    <div>
-        <h2>Quick Search</h2>
-        <p>Easily search your snippets by content, category, web address, application, and more</p>
+    <div className='mr-36'>
+        <h2 className='text-3xl my-4'>Quick Search</h2>
+        <p className='text-gray-400'>Easily search your snippets by content, <br/> category, web address, application, and <br/> more</p>
 
-        <h1>iCloud Sync</h1>
-        <p>Instanly saves and syncs snippets across all your devices</p>
-        <h1>Completely History</h1>
-        <p>Retrieve any snippets fron the first moment you started using the app</p>
+        <h1 className='text-3xl my-4'>iCloud Sync</h1>
+        <p className='text-gray-400'>Instanly saves and syncs snippets across<br/> all your devices</p>
+        <h1 className='text-3xl my-4'>Completely History</h1>
+        <p className='text-gray-400'>Retrieve any snippets fron the first moment <br/> you started using the app</p>
     </div>
 </div>
 <div className='my-16 text-center'>
