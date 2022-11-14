@@ -95,11 +95,11 @@ const clipper = () => {
     {/* Footer  */}
     <div className='bg-gray-200 flex justify-evenly mt-16'>
         <div>
-            <Image src={Logo} />
+            <Image src={Logo} className='p-8' />
         </div>
-        <div className='grid grid-cols-3'>
+        <div className='grid grid-cols-3 text-gray-400 pt-6'>
 <h1>FAQs</h1>
-<h1>Privacy Policy</h1>
+<h1 className='mr-12'>Privacy Policy</h1>
 <h1>Install Guide</h1>
 <h1>Contact Us</h1>
 <h1>Page Kit</h1>
