@@ -55,21 +55,22 @@ const clipper = () => {
 <div className='text-center my-8'>
 <h1 className='text-3xl my-6'>Supercharge your Workflow</h1>
 <p className='text-gray-400 mb-8'>We've got the tools to boost your productivity.</p>
-<div className='flex'>
-    <div>
-<Image src={BlackList} />
-<p>Create blacklists</p>
-<p>Easily search your snippets by content category , web address application and more.</p>
+
+<div className='flex my-16 text-center'>
+    <div className='ml-64'>
+<Image src={BlackList} className='ml-32 mb-4' />
+<p className='text-xl mb-4'>Create blacklists</p>
+<p className='text-gray-400'>Easily search your snippets by content <br/> category , web address application and <br/> more.</p>
     </div>
-    <div>
-        <Image src={Plain} />
-        <p>Plain text snippets</p>
-        <p>Remove unwanted formatting frmo copied text for a consostent look.</p>
+    <div className='ml-24'>
+        <Image src={Plain} className='ml-32 mb-4' />
+        <p className='text-xl mb-4'>Plain text snippets</p>
+        <p className='text-gray-400'>Remove unwanted formatting frmo copied <br/> text for a consostent look.</p>
     </div>
-    <div>
-        <Image src={Preview} />
-        <p>Sneak preview</p>
-        <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+    <div className='ml-24'>
+        <Image src={Preview} className='ml-32 mb-4' />
+        <p className='text-xl mb-4'>Sneak preview</p>
+        <p className='text-gray-400'>Quick preview of all snippets on your <br /> Clipboard for easy access.</p>
     </div>
     
 </div>
