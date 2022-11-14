@@ -53,8 +53,8 @@ const clipper = () => {
 <Image src={Devices} className='ml-72' />
 </div>
 <div className='text-center my-8'>
-<h1>Supercharge your Workflow</h1>
-<p>We've got the tools to boost your productivity.</p>
+<h1 className='text-3xl my-6'>Supercharge your Workflow</h1>
+<p className='text-gray-400 mb-8'>We've got the tools to boost your productivity.</p>
 <div className='flex'>
     <div>
 <Image src={BlackList} />
