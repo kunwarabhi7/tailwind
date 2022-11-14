@@ -26,8 +26,8 @@ const clipper = () => {
 <div className='text-center'>
     <p className='text-5xl font-bold'>A history of everything you copy.</p>
     <p className='py-4 text-gray-400'>Clipboard allows you to track and organize everything you copy.<br/> Instantly access your clipboard on your devices.</p>
-<div className='flex justify-evenly py-4'>
-    <button className='bg-green-500 text-white py-2 px-3 rounded-full shadow-2xl'>Download for iOS</button>
+<div className='flex justify-center py-4'>
+    <button className='bg-green-500 text-white py-2 px-3 rounded-full shadow-2xl mr-12'>Download for iOS</button>
     <button className='bg-blue-800 text-white py-2 px-3 rounded-full shadow-2xl '>Download for Mac</button>
 </div>
 </div>
@@ -84,15 +84,16 @@ const clipper = () => {
 <Image src={VG} className='mr-8'/>
     </div>
     <div className='text-center'>
-        <h1>Clipboard for iOS and Mac OS</h1>
-        <p>Available for free n the App Store. Download for Mac pr iOS , sync with iCloud and you're ready to start adding to your clipboard.</p>
-        <div className='flex justify-evenly'>
-    <button className='bg-green-500 text-white py-2 px-3 rounded-full shadow-2xl'>Download for iOS</button>
+        <h1 className='text-3xl font-bold my-4'>Clipboard for iOS and Mac OS</h1>
+        <p className='text-gray-400 my-4'>Available for free n the App Store. Download for Mac pr iOS , sync <br/>
+         with iCloud and you're ready to start adding to your clipboard.</p>
+        <div className='flex justify-center my-6'>
+    <button className='bg-green-500 text-white py-2 px-3 rounded-full shadow-2xl mr-12'>Download for iOS</button>
     <button className='bg-blue-800 text-white py-2 px-3 rounded-full shadow-2xl'>Download for Mac</button>
 </div>
     </div>
     {/* Footer  */}
-    <div className='bg-gray-200 flex justify-evenly'>
+    <div className='bg-gray-200 flex justify-evenly mt-16'>
         <div>
             <Image src={Logo} />
         </div>
