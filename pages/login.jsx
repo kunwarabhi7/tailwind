@@ -12,7 +12,7 @@ const login = () => {
         <button className='text-blue-400'>Forget Password</button>
         <button className='text-white bg-cyan-500 rounded-lg p-5'>Next  <span className='font-bold text-2xl'>	&#8594; </span></button>
     </div>
-    <button>Or log in with</button>
+    <h1 className='text-center cursor-pointer text-gray-400 '>Or log in with</h1>
     <div>
         <button>Facebook</button>
         <button>Google</button>
