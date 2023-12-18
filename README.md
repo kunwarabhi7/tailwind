@@ -2,7 +2,7 @@ This is a [Next.js] TailwindApp   (https://nextjs.org/) project  bootstrapped wi
 
 ## Getting Started
  
-First, run the development server:
+First, run the development server 
 
 ```bash   
 npm run dev
